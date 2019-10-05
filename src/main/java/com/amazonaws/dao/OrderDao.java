@@ -77,6 +77,7 @@ public class OrderDao {
      * @param tableName name of table to use for orders
      * @param pageSize size of pages for getOrders
      */
+
     public OrderDao(final DynamoDbClient dynamoDb, final String tableName,
                     final int pageSize) {
         this.dynamoDb = dynamoDb;
